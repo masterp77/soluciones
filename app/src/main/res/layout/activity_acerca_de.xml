@@ -30,7 +30,8 @@
         android:layout_height="wrap_content"
         android:layout_x="130dp"
         android:layout_y="363dp"
-        android:text="Marcos Steve Rosero" />
+        android:text="Marcos Steve Rosero"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView3"
@@ -53,4 +54,12 @@
         android:text="Regresar"
         android:textColor="@color/cardview_light_background"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="129dp"
+        android:layout_y="341dp"
+        android:text="Ingeniero de Sistemas" />
 </AbsoluteLayout>
