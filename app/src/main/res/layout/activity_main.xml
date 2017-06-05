@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marcos.finalandroid.MainActivity">
+
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        ></android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/acercaDe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="275dp"
+            android:layout_y="447dp"
+            android:background="@color/colorPrimary"
+            android:text="Acerca de"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="280dp"
+            tools:layout_editor_absoluteY="447dp" />
+
+        />
+    </AbsoluteLayout>
+
+</android.support.constraint.ConstraintLayout>

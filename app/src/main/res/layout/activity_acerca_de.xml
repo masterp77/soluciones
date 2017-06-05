@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marcos.finalandroid.AcercaDe">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="162dp"
+        android:layout_y="23dp"
+        android:text="Acerca de:" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="206dp"
+        android:layout_height="267dp"
+        android:layout_x="91dp"
+        android:layout_y="62dp"
+        app:srcCompat="@drawable/logouniversidadmariana"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="363dp"
+        android:text="Marcos Steve Rosero" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="170dp"
+        android:layout_y="389dp"
+        android:text="2017"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="152dp"
+        android:layout_y="426dp"
+        android:background="@color/colorPrimary"
+        android:onClick="regresar"
+        android:text="Regresar"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold" />
+</AbsoluteLayout>
